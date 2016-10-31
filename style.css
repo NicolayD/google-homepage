@@ -1,0 +1,47 @@
+.search_field {
+	postion: relative;
+	margin-top: 200px;
+}
+
+img {
+	display: block;
+	position: relative;	
+	margin: auto 
+	
+}
+
+
+form {
+	position: relative;
+	padding: 10px 0px 5px 0px; 
+}
+
+#lookfor {
+	margin: 20px auto 0;
+	display: block;
+	position: relative;
+	width: 380px;
+	padding: 5px;
+}
+
+#sub {
+	margin-top: 30px;
+	position: relative;
+	margin: 10px auto 0;
+	display: block;
+	padding: 6px 15px 6px 15px;
+}
+
+ul {
+	position: fixed;
+	bottom: 0;
+	list-style-type: none;
+	width: 100%;
+	margin: -8px;
+	padding: 25px;
+	background-color: 	#e8ebe0;
+}
+
+li {
+	display: inline-block;
+}
