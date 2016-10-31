@@ -1,13 +1,12 @@
 .search_field {
-	postion: relative;
+	position: relative;
 	margin-top: 200px;
 }
 
 img {
 	display: block;
 	position: relative;	
-	margin: auto 
-	
+	margin: auto;	
 }
 
 
@@ -20,8 +19,9 @@ form {
 	margin: 20px auto 0;
 	display: block;
 	position: relative;
-	width: 380px;
+	width: 430px;
 	padding: 5px;
+	line-height: 20px;
 }
 
 #sub {
@@ -32,16 +32,65 @@ form {
 	padding: 6px 15px 6px 15px;
 }
 
-ul {
+.footer {
 	position: fixed;
 	bottom: 0;
 	list-style-type: none;
-	width: 100%;
+	width: 98%;
 	margin: -8px;
 	padding: 25px;
-	background-color: 	#e8ebe0;
+	padding-top: 15px;
+	margin-left: -20px;
+	background-color: 	#e7e7e7;
+	text-align: right;
+	font-size: small;
+	font-family: arial,sans-serif;
 }
+
+.header{
+	position: fixed;
+	top: 0;
+	list-style-type: none;
+	width: 97%;
+	margin: -8px;
+	padding: 25px;
+	padding-bottom: 20px;
+	text-align: right;
+	font-family: arial,sans-serif;
+}
+
 
 li {
 	display: inline-block;
+	margin-left: 20px;
+}
+
+li a {
+	text-decoration: none;
+	color: #666;
+	font-size: 13px;
+}
+
+
+li a:hover {
+	text-decoration: underline;
+}
+
+.leftfoot {
+	float: left;
+}
+
+#signin {
+	border-radius: 2px;
+	background-color: #4285f4;
+	color: #fff;
+	padding: 8px 12px;
+	font-weight: bold;
+	border: 1px solid #4285f4;
+	line-height: 28px;
+}
+
+#signin:hover {
+	text-decoration: none;
+	box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
